@@ -9,6 +9,8 @@ php:
 services:
   - mongodb
   
+build_image: drydock/u14phpall:tip
+
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
